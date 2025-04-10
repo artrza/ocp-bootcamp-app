@@ -1,5 +1,5 @@
 # Nutze das UBI8-Python-Image als Basis
-FROM registry.access.redhat.com/ubi8/python-39
+FROM registry.access.redhat.com/ubi9/python-312
 
 # Root-Kontext zum Installieren
 USER 0
