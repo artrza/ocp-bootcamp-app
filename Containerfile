@@ -9,6 +9,8 @@ USER 1001
 
 WORKDIR /app
 
+STOPSIGNAL SIGINT
+
 # Kopiere unsere kleine Web-App in das Image
 COPY app.py /app/
 
